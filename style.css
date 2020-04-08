@@ -1,0 +1,66 @@
+.bg-dark-purple {
+    background-color: #c8bfe7;
+}
+
+.img-profile {
+    width: 5%;
+    margin-right: 10em;
+    margin-left: 10em;
+}
+
+.emblema-player {
+    width: 2em;
+}
+
+.cardPlayer {
+    display: flex;
+    align-items: center;
+}
+
+.user-face {
+    width: 3%;
+    margin-left: 10em;
+}
+
+.user-name {
+    text-decoration: none;
+    color: black;
+}
+
+.collapse {
+    padding-left: 2em;
+}
+
+.form-search {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+}
+
+.end-nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.second-nav {
+    height: 3em;
+    background-color: #a349a4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-items {
+    padding: 0;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.list-items li a {
+    text-decoration: none;
+    color: white;
+}
