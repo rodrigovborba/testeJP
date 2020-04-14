@@ -1,5 +1,14 @@
+.body {
+    background-color: #3F3F3F;
+    color: white;
+}
+
+nav {
+    background-image: url(/1x/Ativo\ 1.png);
+}
+
 .bg-dark-purple {
-    background-color: #c8bfe7;
+    background-color: #0FDDA8;
 }
 
 .img-profile {
@@ -10,11 +19,48 @@
 
 .emblema-player {
     width: 2em;
+    margin-right: .5em;
+}
+
+.div-buttons {
+    margin: 2em;
+    padding: 1em 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons-tempos {
+    width: 114px;
+    background-image: url(/teams/buttons.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.div-card-player {
+    display: flex;
+    height: 210px;
+}
+
+.card-player {
+    margin: 2em;
+    width: 50%;
+    background-image: url(/teams/Ativo\ 2.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 .cardPlayer {
     display: flex;
-    align-items: center;
+    margin-bottom: .7em;
+}
+
+.cardPlayer article {
+    margin-right: 7px;
 }
 
 .user-face {
@@ -47,7 +93,7 @@
 
 .second-nav {
     height: 3em;
-    background-color: #a349a4;
+    background-color: white;
     display: flex;
     justify-content: space-around;
 }
@@ -57,10 +103,128 @@
     align-items: center;
     text-decoration: none;
     list-style-type: none;
-    color: white;
+    color: #0FDDA8;
 }
 
 .list-items li a {
     text-decoration: none;
-    color: white;
+    color: #0FDDA8;
 }
+
+/* The Modal (background) */
+#myModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  #phaserInside {
+    background-color: #fefefe;
+    border: 1px solid #fefefe;
+    border-radius: 5px;
+    margin: auto;
+    width: 320px;
+    height: 320px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  canvas {
+      padding-left: 10px;
+      padding-top: 10px;
+  }
+
+  .player-progress-bar {
+      width: 80px;
+      height: 8px;
+      border: 1px solid white;
+      border-radius: 5px;
+  }
+
+  .progress-bar-fill {
+      height: 100%;
+      width: -webkit-calc(1000/4500 * 100%);
+      background: #59ea63;
+      border-radius: 5px;
+  }
+
+  .user-face-card {
+      width: 40px;
+      height: 40px;
+      margin-right: .5em;
+  }
+
+  .card-profile-team {
+      display: flex;
+      flex-direction: column;
+      margin-top: .6em;
+      padding-left: 1em;
+      padding-right: 16px;
+      width: 200px;
+  }
+
+  .dinheiro {
+      height: 20px;
+      margin-right: .3em;
+  }
+
+  .dinheiro-valor {
+      font-size: 12px;
+  }
+
+  .profile-team {
+      display: flex;
+      margin-bottom: 1em;
+  }
+
+  .card-level-xp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: -5em;
+      margin-bottom: 4em;
+  }
+
+  .card-gols {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: .5em;
+      margin-left: 30px;
+  }
+
+  .card-xp {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      margin-top: .5em;
+      margin-left: 75px;
+  }
+
+  .cardPlayer span {
+      width: 50px;
+      display: flex;
+      justify-content: center;
+  }
